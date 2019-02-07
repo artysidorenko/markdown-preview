@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App__heading {
+  padding-top: 20px;
+}
+
+.TextInput__textarea {
+  background-color: rgb(226, 244, 226);
+  font-family: LinBiolinum;
+  width: 400px;
+  height: 200px;
+}
+
+@media screen and (min-width: 600px) {
+  .TextInput__textarea {
+    width: 500px;
+  }
+}
+
+.TextOutput__container {
+  background-color: rgb(116, 150, 116);
+  margin: auto;
+  font-family: LinBiolinum;
+  max-width: 500px;
+  height: 500px;
+  color: white;
+  border: 1px solid darkgrey;
+  overflow-y: scroll;
+}
+
+.TextOutput__container code {
+  background: white;
+  color: black;
+  width: 100%;
+  display: inline;
+}
+
+.TextOutput__container pre {
+  background: white;
+  color: black;
+  width: 100%;
+  display: inline-block;
+}
+
+.TextOutput__container table {
+  border-spacing: 0px;
+}
+
+.TextOutput__container th,td {
+  border: 1px solid black;
+}
+
+.TextOuput__textbox {
+  text-align: left;
+  display: inline;
+  font-size: small;
+  width: 100%;
+  background-color: blue;
+}
+
+.footer__container {
+  margin: 20px auto;
+  max-width: 500px;
+}
