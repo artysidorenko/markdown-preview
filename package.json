@@ -13,7 +13,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-one-file": "npm run build && npm run build:bundle",
+    "build:react": "react-scripts build",
+    "build:bundle": "webpack --config webpack.config.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +28,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "url-loader": "^1.1.2"
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "url-loader": "^1.1.2",
+    "webpack-cli": "^3.2.3"
   }
 }
